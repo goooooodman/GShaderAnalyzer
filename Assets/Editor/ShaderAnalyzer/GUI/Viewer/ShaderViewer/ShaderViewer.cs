@@ -104,7 +104,7 @@ namespace GShaderAnalyzer
 
                 m_List.Sort(sort);
             }
-            GUILayout.Button("源代码", GUILayout.MinWidth(m_MINWIDTH));
+			GUILayout.Button(new GUIContent("源代码", "点击着色器代码可以复制到剪贴板"), GUILayout.MinWidth(m_MINWIDTH));
 
             foreach (var item in m_FieldInfoMap)
             {
